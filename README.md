@@ -1,21 +1,15 @@
 # PushToStart
 Tugas pengenalan GitHub, Git, branching, dan merging
-# Membuat branch baru dan berpindah ke branch tersebut
-git switch -c belajar-branch
+# INTRIVIA 2026 
 
-# Membuat perubahan pada README.md,
-# kemudian simpan file dan jalankan:
-git add README.md
-git commit -m "Menambahkan informasi pembelajaran Git"
+## Identitas Diri 
+| Nama Lengkap | NIM | Program Studi | Cluster | 
+|--------------|-----|---------------|---------| 
+| [Miftah Pangestu] | [265150207111052] | [Teknik Informatrika] | [ 9 ] | 
 
-# Mengunggah branch baru ke GitHub
-git push -u origin belajar-branch
+## Kesan Pesan INTRIVIA Sejauh Ini 
+[Kesan:Melalui tugas Push to Start, saya mendapatkan pengalaman dan pengetahuan baru tentang penggunaan GitHub, Git, serta VS Code. Saya belajar bagaimana membuat repository, mengelola file, dan memahami konsep branching serta merging.] 
 
-# Kembali ke branch utama
-git switch main
+## Kesan Pesan Cluster [Nomor Cluster] Sejauh Ini 
+[Pesan: Semoga kegiatan INTRIVIA dapat terus menjadi wadah belajar yang menyenangkan dan membantu mahasiswa baru mengembangkan kemampuan di bidang teknologi. Terima kasih kepada panitia atas materi dan pengalaman yang diberikan. ]
 
-# Menggabungkan perubahan dari branch baru
-git merge belajar-branch
-
-# Mengunggah hasil merge
-git push origin main
